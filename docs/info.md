@@ -8,13 +8,15 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
+This project implements a combinational logic circuit based on a 4-input truth table (`in0` to `in3`) designed in Wokwi. It uses basic logic gates to process the binary inputs and produce the expected outputs on the `out` pins.
 
-Explain how your project works
+
 
 ## How to test
 
-Explain how to use your project
-
+1. Set the input DIP switches (1 to 4) to match the binary combinations from the truth table.
+2. Start the simulation or power on the Tiny Tapeout demo board.
+3. Verify that the output LEDs turn ON or OFF according to the expected logic states for each input combination.
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None. Only the onboard DIP switches and output LEDs of the Tiny Tapeout demo board are required.
